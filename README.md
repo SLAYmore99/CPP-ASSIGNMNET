@@ -2,9 +2,9 @@
 <h2>Practical Questions</h2>
 <p>
   <ol>
-<li> Write a program to compute the sum of the first o tenns of the followiog series:<br>
-S = I - I / (2" 2) + I / (3" 3) - ... I / (o "n) <br>
-where " is exponentiation. The number of terms n is to be taken from user through command line. If command line argument is not found then prompt the user to enter the value of n.</li><br><br>
+<li> Write a program to compute the sum of the first n terms of the followiog series:<br>
+S = 1 - 1 / (2^2) + 1 / (3^3) - ... 1 / (n^n) <br>
+where ^ is exponentiation. The number of terms n is to be taken from user through command line. If command line argument is not found then prompt the user to enter the value of n.</li><br><br>
 <li> Write a program to remove the duplicates from an array.</li><br><br>
 <li> Write a program that prints a table indicating the number of occurrences of each alphabet in the text entered as command Line arguments.</li><br><br>
 <li> Write a menu driven program to perform following operations on strings (without using inbuilt string functions):<br><br>
@@ -27,7 +27,7 @@ where " is exponentiation. The number of terms n is to be taken from user throug
 <li> Transpose</li><br><br>
   </li>
   </ol>
-<li> Define a class Person having name as a data member. Inherit two classes Student and Employee from Person. Student has additional attributes as course, marks and year and Employee has department and salary. Write displayO method in all the three classes to display the corresponding attributes. Provide the necessary methods to show runtime polymorphism.</li><br><br>
+<li> Define a class Person having name as a data member. Inherit two classes Student and Employee from Person. Student has additional attributes as course, marks and year and Employee has department and salary. Write display() method in all the three classes to display the corresponding attributes. Provide the necessary methods to show runtime polymorphism.</li><br><br>
 <li> Create a class Triangle. Include overloaded functions for calculating area. Overload assignment operator and equality operator.</li><br><br>
 <li> Write a program to read two numbers p and q. If q is O then throw an exception else display the result of p/q.</li><br><br>
 <li> Rewrite Matrix class of Q8 with exception handling. Exceptions should be thrown by the functions if matrices passed to them are incompatible and handled by main() function.</li><br><br>
