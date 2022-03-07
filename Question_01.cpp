@@ -24,8 +24,7 @@ int main(int argc, char *argv[])
         cout << Series(n);
     }
 
-    char *n = argv[1];
-    cout << Series(*n - 48) << endl; // because ASCII of '0' is 48;
+    cout << Series(*argv[1] - 48) << endl; // because ASCII of '0' is 48;
 
     return 0;
 }
